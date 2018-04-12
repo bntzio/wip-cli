@@ -5,5 +5,13 @@
   "main": "cli.js",
   "repository": "git@github.com:bntzio/wip-cli.git",
   "author": "Enrique Benitez <hello@bntz.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run compile && node ./lib/cli.js",
+    "compile": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
 }
